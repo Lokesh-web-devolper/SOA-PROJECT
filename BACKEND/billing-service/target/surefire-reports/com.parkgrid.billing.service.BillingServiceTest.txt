@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.parkgrid.billing.service.BillingServiceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.723 s -- in com.parkgrid.billing.service.BillingServiceTest

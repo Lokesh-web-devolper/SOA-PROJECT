@@ -1,0 +1,57 @@
+.manage-slots-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+.slot-num-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.slot-icon {
+  color: #16a34a;
+}
+
+.status-toggle-group {
+  display: inline-flex;
+}
+
+.btn-toggle-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.btn-toggle-status.disable {
+  background-color: #fffbeb;
+  color: #b45309;
+  border-color: #fde68a;
+}
+
+.btn-toggle-status.disable:hover {
+  background-color: #fef3c7;
+}
+
+.btn-toggle-status.enable {
+  background-color: #f0fdf4;
+  color: #15803d;
+  border-color: #bbf7d0;
+}
+
+.btn-toggle-status.enable:hover {
+  background-color: #dcfce7;
+}
+
+.status-pill.available { background-color: #dcfce7; color: #15803d; }
+.status-pill.occupied { background-color: #fee2e2; color: #b91c1c; }
+.status-pill.reserved { background-color: #fef3c7; color: #b45309; }
+.status-pill.maintenance { background-color: #f1f5f9; color: #64748b; }

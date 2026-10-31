@@ -1,0 +1,2 @@
+com\parkgrid\gateway\ApiGatewayApplication.class
+com\parkgrid\gateway\util\JwtUtil.class
